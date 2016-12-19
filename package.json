@@ -1,0 +1,34 @@
+{
+  "name": "pe-machine-type",
+  "version": "0.0.1",
+  "description": "Get the CPU type of a Windows executable, cross-platform",
+  "license": "MIT",
+  "author": "Vincent Weevers",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "pe-coff": "~1.0.0"
+  },
+  "devDependencies": {
+    "tape": "~4.6.3"
+  },
+  "repository": "vweevers/pe-machine-type",
+  "bugs": "https://github.com/vweevers/pe-machine-type/issues",
+  "homepage": "https://github.com/vweevers/pe-machine-type",
+  "keywords": [
+    "exe",
+    "executable",
+    "pe",
+    "pe-coff",
+    "portable-executable",
+    "windows"
+  ],
+  "engines": {
+    "node": ">=4.0.0",
+    "npm": ">=2.0.0"
+  }
+}
